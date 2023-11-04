@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title> EXERCISE 3 </title>
+</head>
+<body bgcolor= "#F9B09A ">
+<body>
+	
+<h1> <div align="center"> <p style= "color:#E91200 ; font-size: 80px"> EXERCISE 3 </div></p></h1>
+
+<h2><p "font-size: 60px">  Resuelve el siguiente ejercicio <p> </h2>
+<h3> Write a program to compute the sum and product (multiplication) of an array of numbers. Print out the sum and the product.
+Example: Given an array [1, 2, 3, 4] The sum is 10. The product is 24. </h3>
+
+<div align="center"> 
+<font size="15">
+<p> const arr = [2, 4, 6, 8, 10];
+
+<p>sumayproducto(arr);
+
+<p>function sumayproducto(arr2) {
+    <p>let producto;
+    <p>let suma;
+
+    <p>suma = arr2.reduce((resultado, elemento) => { 
+        <p>return resultado + elemento;
+   <p> });
+
+    <p>producto = arr2.reduce((resultado, elemento) => {
+        <br>return resultado * elemento;
+    <p>});
+
+   <p> console.log(`Suma: ${suma} producto: ${producto}`);
+<p>}
+<p><mark> EXAMPLE: Suma: 30 producto: 3840</mark></P>
+
+</p>
+</font>
+</div>
+</body>
+<html>

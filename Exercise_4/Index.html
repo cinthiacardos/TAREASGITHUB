@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title> EXERCISE 4 </title>
+</head>
+<body bgcolor= "#FFFFA0">
+<body>
+	<h1> <div align="center"> <p style= "color: #E6BF00; font-size: 80px"> EXERCISE 4 </div></p></h1>
+
+<h2><p "front-size: 60px"><br> Resuelve el siguiente ejercicio:
+</br>
+<br>let student1Courses = ['Math', 'English', 'Programming']; </br>
+<br>let student2Courses = ['Geography', 'Spanish', 'Programming'];</br>
+<br>Create a program that loops over the 2 arrays; if there are any common courses print them out to the console.
+</br>
+</p></h2>
+<div align="center">
+
+
+<br>let student1Courses = ['Math', 'English', 'Programming','Calculo', 'Astrofisic']; </br>
+<br>let student2Courses = ['Geography', 'Spanish', 'Programming','Astrofisic', 'art']; </br>
+
+<br>function findCommonCourses(courses1, courses2) { </br>
+    <br>let commonCourses = []; </br>
+   <br> for (let course of courses1) { </br>
+       <br> if (courses2.includes(course)) { </br>
+           <br> commonCourses.push(course);</br>
+        <br>} </br>
+ <br>   } </br>
+    <br>return commonCourses;
+<br>} </br>
+
+<br>let commonCourses = findCommonCourses(student1Courses, student2Courses);<br>
+
+<br>console.log ("Cursos en comun"); <br>
+<br>console.log(commonCourses);<br>
+
+<br><mark> OUTPUT :   ['Programming', 'Astrofisic'] </br></mark>
+</div>
+</body>
+<html>
